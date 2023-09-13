@@ -1,0 +1,128 @@
+
+.note-app {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .group-list {
+    width: 100vw;
+    overflow-y: auto;
+  }
+  .button{
+    width: 80%;
+  }
+  
+  .group-item {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    border-top-left-radius:1.5rem;
+    border-bottom-left-radius: 1.5rem;
+  }
+  
+  .group-item.selected {
+    /* background-color: #f7ecdc; */
+    border: none;
+  }
+  
+  .note-list {
+    display:none;
+    /* overflow-y: auto; */
+  }
+  
+  .note-card {
+    margin-bottom: 16px;
+  }
+  
+  .group-icon{
+  height:3rem;
+  width : 3rem;
+  font-size: 1.25rem;
+  text-align: center;
+  border-radius: 2rem 2rem;
+  padding: 0.75rem;
+  margin-right: 0.5rem;
+}
+.Notes-down{
+  font-size: 1.4rem;
+  margin-left:380px;
+  line-height: 0.5;
+}
+#end{
+  font-size: 1.2rem;
+  margin-left: 560px;
+  font-weight: 400;
+  margin-top: 140px;
+  
+}
+@media screen and (min-width:950px){
+
+.note-app {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .group-list {
+    width: 15%;
+    overflow-y: auto;
+  }
+  
+  .group-item {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    border-top-left-radius:1.5rem;
+    border-bottom-left-radius: 1.5rem;
+  }
+  
+  .group-item.selected {
+    background-color: #f7ecdc;
+    border: none;
+  }
+  
+  .note-list {
+    display:block;
+    width: 85%;
+    /* overflow-y: auto; */
+  }
+  
+  .note-card {
+    margin-bottom: 16px;
+  }
+  
+  .group-icon{
+  height:3rem;
+  width : 3rem;
+  font-size: 1.25rem;
+  text-align: center;
+  border-radius: 2rem 2rem;
+  padding: 0.75rem;
+  margin-right: 0.5rem;
+}
+.Notes-down{
+  font-size: 1.4rem;
+  margin-left:380px;
+  line-height: 0.5;
+}
+#end{
+  font-size: 1.2rem;
+  margin-left: 560px;
+  font-weight: 400;
+  margin-top: 140px;
+  position: absolute;
+  top: 439px;
+  left: 210px;
+}
+}
